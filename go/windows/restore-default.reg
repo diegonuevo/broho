@@ -1,0 +1,16 @@
+Windows Registry Editor Version 5.00
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Applications\Broho]
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Broho.AssocFile]
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Broho.AssocURL]
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\DNG]
+
+[HKEY_LOCAL_MACHINE\Software\RegisteredApplications]
+"Broho"=-
+
+[-HKEY_LOCAL_MACHINE\Software\Classes\BrohoHTML]
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Clients\StartMenuInternet\Broho]

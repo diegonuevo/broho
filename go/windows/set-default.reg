@@ -1,0 +1,105 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Applications\Broho]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Applications\Broho\shell]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Applications\Broho\shell\open]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Applications\Broho\shell\open\command]
+@="\"C:\\Program Files\\Broho\\broho-push.exe\" \"%1\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Broho.AssocFile]
+@="Open file in Browser On Host"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Broho.AssocFile\shell]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Broho.AssocFile\shell\open]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Broho.AssocFile\shell\open\command]
+@="\"C:\\Program Files\\Broho\\broho-push.exe\" \"%1\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Broho.AssocURL]
+@="Open URL in Browser On Host"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Broho.AssocURL\shell]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Broho.AssocURL\shell\open]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Broho.AssocURL\shell\open\command]
+@="\"C:\\Program Files\\Broho\\broho-push.exe\" \"%1\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\DNG]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\DNG\Broho]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\DNG\Broho\Capabilities]
+"ApplicationDescription"="Open URLs or files in the Browser On Host"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\DNG\Broho\Capabilities\FileAssociations]
+".htm"="Broho.AssocFile"
+".html"="Broho.AssocFile"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\DNG\Broho\Capabilities\Startmenu]
+"StartmenuInternet"="Broho"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\DNG\Broho\Capabilities\UrlAssociations]
+"http"="Broho.AssocURL"
+"https"="Broho.AssocURL"
+
+[HKEY_LOCAL_MACHINE\Software\RegisteredApplications]
+"Broho"="Software\\Clients\\StartMenuInternet\\Broho\\Capabilities"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\BrohoHTML]
+@="Broho Handler"
+"AppUserModelId"="Broho"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\BrohoHTML\Application]
+"AppUserModelId"="Broho"
+"ApplicationIcon"="C:\\Program Files\\Broho\\broho-push.exe,0"
+"ApplicationName"="Broho"
+"ApplicationDescription"="Browser On Host"
+"ApplicationCompany"="DNG"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\BrohoHTML\DefaultIcon]
+@="C:\\Program Files\\Broho\\broho-push.exe,0"
+[HKEY_LOCAL_MACHINE\Software\Classes\BrohoHTML\shell]
+[HKEY_LOCAL_MACHINE\Software\Classes\BrohoHTML\shell\open]
+[HKEY_LOCAL_MACHINE\Software\Classes\BrohoHTML\shell\open\command]
+; your browser might offer different arguments here - %1 opens just the argument given
+@="\"C:\\Program Files\\Broho\\broho-push.exe\" \"%1\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Clients\StartMenuInternet\Broho]
+@="Browser On Host"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Clients\StartMenuInternet\Broho\Capabilities]
+"ApplicationName"="Broho"
+"ApplicationIcon"="C:\\Program Files\\Broho\\broho-push.exe,0"
+"ApplicationDescription"="Browser On Host"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Clients\StartMenuInternet\Broho\Capabilities\StartMenu]
+"StartMenuInternet"="Broho"
+
+[HKEY_LOCAL_MACHINE\Software\Clients\StartMenuInternet\Broho\Capabilities\FileAssociations]
+".htm"="BrohoHTML"
+".html"="BrohoHTML"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Clients\StartMenuInternet\Broho\Capabilities\URLAssociations]
+"https"="BrohoHTML"
+"http"="BrohoHTML"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Clients\StartMenuInternet\Broho\DefaultIcon]
+@="C:\\Program Files\\Broho\\broho-push.exe,0"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Clients\StartMenuInternet\Broho\InstallInfo]
+"IconsVisible"=dword:00000000
+"ReinstallCommand"="\"C:\\Program Files\\Broho\\broho-push.exe\" --make-default"
+"HideIconsCommand"="\"C:\\Program Files\\Broho\\broho-push.exe\" --hide-icons"
+"ShowIconsCommand"="\"C:\\Program Files\\Broho\\broho-push.exe\" --show-icons"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Clients\StartMenuInternet\Broho\shell]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Clients\StartMenuInternet\Broho\shell\open]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Clients\StartMenuInternet\Broho\shell\open\command]
+@="\"C:\\Program Files\\Broho\\broho-push.exe\""

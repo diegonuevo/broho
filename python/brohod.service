@@ -1,0 +1,10 @@
+[Unit]
+Description=Browser On Host Daemon Service
+After=graphical-session.target
+[Service]
+Type=simple
+Restart=always
+WorkingDirectory=/opt/broho/
+ExecStart=/opt/broho/brohod.py
+[Install]
+WantedBy=graphical-session.target

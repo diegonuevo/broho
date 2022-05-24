@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+//Broker service to handle URL open requests from clients
+service URLBrokerService {
+  //Pushes an URL to the server to open it on the default browser
+  rpc PushURL(URL) returns (Response) {}
+}
+
+//URL parameter (string format)
+message URL {
+  string url = 1;
+}
+
+//Broker response code to PushURL request
+message Response {
+  int32 response_code = 1;
+}

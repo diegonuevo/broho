@@ -8,6 +8,8 @@ The initial driver that led to the creation of this simple project was a minor a
 
 Taking this into account, the ideal situation for me would be having links on the VM (in Outlook, for example) open on the browser on the Linux host instead. So I decided to write this tool to implement this.
 
+*Note: Apparently, there is a piece of software by VMware that does just that (VMwareHostOpen.exe), but I never managed to make it work. Furthermore, it's only valid for VMware workstation environments, and I migrated to KVM and virt-manager long ago. The tool I wrote is hypervisor-agnostic, since it only requires IP network connectivity between the guest VM and the host.*
+
 As a bonus, I took this opportunity as a challenge, to experience with a few technologies I hadn't used before:
 - **gRPC and Protocol Buffers:** This is a very simple client/server application that serves as a proof of concept of this amazing and powerful framework
 - **Golang:** I'm no professional developer, but I code from time to time. I'd written some code in Python, Java, C/C++, TCL, Shell Scripts and JavaScript in the past, but I'd never gone beyond the 'Hello World' in Go, so this can be considered my baptism.

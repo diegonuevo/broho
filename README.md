@@ -61,3 +61,9 @@ In the future, if I feel like it, I may implement encryption and authentication 
 # Roadmap
 
 Since this tool follows a client/server architecture and uses the general purpose and extensible gRPC framework, it can be potentially extended to implement many other features requiring VM-to-host communication. In the future I may rewrite the tool to act as a BRoker On Host to do many other things, instead of just a simple BRowser.
+
+# License
+
+GNU General Public License v3.0 or later
+
+See COPYING to see the full text.
